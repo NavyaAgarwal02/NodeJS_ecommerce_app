@@ -1,4 +1,4 @@
-# prouction_nodejs_ecommerce_app
+# production_nodejs_ecommerce_app
  
 The **E-Commerce App** is a Node.js-based platform developed using the Express.js framework, with MongoDB as the chosen database. This application manages information related to products and user orders. It exposes specific endpoints to handle CRUD (Create, Read, Update, Delete) operations for both products and orders, ensuring a seamless shopping experience for users.
 
@@ -87,7 +87,7 @@ The **E-Commerce App** is a Node.js-based platform developed using the Express.j
   - Endpoint: `GET /api/v1/order/my-orders/:id`
   - Description: Retrieves single order from the system.
 
-- *Accept Payments:**
+- **Accept Payments:**
   - Endpoint: `POST /api/v1/order/payments`
   - Description: Accepts order payments from users.
 
