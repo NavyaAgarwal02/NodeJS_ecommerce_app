@@ -1,4 +1,4 @@
-# production_nodejs_ecommerce_app
+# nodejs_ecommerce_app
  
 The **E-Commerce App** is a Node.js-based platform developed using the Express.js framework, with MongoDB as the chosen database. This application manages information related to products and user orders. It exposes specific endpoints to handle CRUD (Create, Read, Update, Delete) operations for both products and orders, ensuring a seamless shopping experience for users.
 
@@ -137,10 +137,72 @@ The `Order` data model represent orders placed by users from the system.
 
 ## Usage
 
-1. **Install Dependencies:**
-   ```bash
-   npm install
-   and others all
+### **Server-side dependencies:**
+
+- Express.js (framework for building web applications)
+- Node.js (runtime environment)
+- MongoDB (database)
+- Mongoose (ODM for MongoDB)
+- Passport.js (authentication middleware)
+- Bcrypt (password hashing)
+- JWT (JSON Web Tokens for authentication)
+- Body-parser (middleware for parsing request bodies)
+- Multer (middleware for handling multipart/form-data requests)
+- Stripe (payment gateway integration)
+- Cors (middleware for handling cross-origin resource sharing)
+- Cloudinary (video and image management solution)
+
+### **Dev dependencies:**
+
+- Nodemon (development server)
+- Jest (testing framework)
+- Chrome-debug (debugging tool)
+- Prettier (code formatter)
+  
+### **Other dependencies:**
+
+- Dotenv (environment variable management)
+- Helmet (security middleware)
+
+## Installation
+
+- Clone the repository: `git clone github.com/NavyaAgarwal02/NodeJS_ecommerce_app`
+- Install dependencies: `npm install`
+- Start the server: `npm start`
+
+## Configuration
+
+- Environment variables: `.env file`
+- Database configuration: `config/db.js`
+
+## Usage
+
+- Start the server: `npm start`
+- Access the app: `http://localhost:8080`
+
+## Development
+
+- Start the development server: `npm run dev`
+- Build the frontend: `npm run build`
+- Debugging: `npm run debug`
+
+## Deployment
+
+- Deploy to production: `npm run deploy`
+- Configure environment variables: `.env.prod`
+
+## Testing
+
+- Run tests: `npm run test`
+- Coverage report: `npm run coverage`
+
+## Security
+
+- Password hashing: `Bcrypt`
+- Authentication: `JWT`
+- Payment gateway: `Stripe`
+
+
 
 
 
